@@ -1,0 +1,127 @@
+.loginContainer {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 544px;
+    padding: 140px 0 28px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+  }
+  
+  @media (max-width: 991px) {
+    .loginContainer {
+      padding: 0 20px;
+    }
+  }
+  
+  .inputLabel {
+    color: #696f79;
+    margin-left: 12px;
+    font: 500 20px Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .inputLabel {
+      margin-left: 10px;
+    }
+  }
+  
+  .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    font: 400 14px Poppins, sans-serif;
+  }
+  
+  .inputField {
+     
+        border-radius: 8px;
+        background-color: #fff;
+        display: flex;
+        width: 80%;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+        border: 1px solid #ddd;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      
+  }
+  
+  .rememberForgotWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 52px;
+  }
+  
+  .forgotPassword {
+    color: #8692a6;
+    text-align: center;
+    font: 400 15px Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .loginButton {
+    border-radius: 30px;
+    background-color: #02a1f9;
+    color: #fff;
+    margin-top: 29px;
+    padding: 20px 50px;
+    font: 700 16px Inter, sans-serif;
+    width: 50%;
+    text-align: center;
+    border-color:#02a1f9 ;
+    
+  }
+  
+  @media (max-width: 991px) {
+    .loginButton {
+      padding: 0 20px;
+    }
+  }
+  
+  .signUpPrompt {
+    color: #8692a6;
+    text-align: right;
+    margin-top: 40px;
+    font: 400 18px Inter, sans-serif;
+  }
+  
+  .signUpLink {
+    font-weight: 500;
+    color: #00d27a;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .rememberMeWrapper {
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .radioWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .rememberMeText {
+    color: #696f79;
+    font: 500 16px Inter, sans-serif;
+  }
+
+  .inputPlaceholder{
+    border-color: white;
+    border-width: 0px;
+    width: 80%;
+  }
+  

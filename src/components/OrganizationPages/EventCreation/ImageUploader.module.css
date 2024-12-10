@@ -1,0 +1,55 @@
+.imageUploaderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .imageLabel {
+    color: #000;
+    font: 500 16px Poppins, sans-serif;
+    margin-bottom: 8px;
+  font-weight: bold;
+  }
+  
+  .dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px dashed #bdbdbd;
+    padding: 48px 24px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    width: 100%; /* Make it take full width of its container */
+    max-width: 600px; /* Set a maximum width if needed */
+    box-sizing: border-box;
+}
+
+.dropzone:hover {
+  cursor: pointer; /* Ensures users see it as clickable */
+  }
+  
+  .dropzone:hover {
+    border-color: #02a1f9;
+}
+  
+  .uploadIcon {
+    width: 50%;
+    height: 30%;
+    object-fit: contain;
+  }
+  
+  .uploadText {
+    color: #bdbdbd;
+    text-align: center;
+    margin-top: 16px;
+    font: 400 16px Poppins, sans-serif;
+  }
+  
+  .fileInput {
+  height: 100%;
+  width:100%;
+    cursor: pointer; /* Ensures users can click anywhere in the dropzone */
+    align-items: center;
+  }

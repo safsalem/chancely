@@ -1,0 +1,156 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom right, #e0f7fa, #80deea);
+  min-height: 100vh;
+  padding: px;
+  width: 100%;
+}
+.head{
+  width:100%;
+}
+
+.centeredBox {
+  width: 90%;
+  max-width: 900px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 24px;
+  color: #00838f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mainContent {
+  display: flex;
+  margin-top: 20px;
+}
+
+.imageSection {
+  flex: 1;
+  text-align: center;
+}
+
+.organizationImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Added box shadow to image */
+}
+
+.imageLabel {
+  font-size: 14px;
+  color: #757575;
+  margin-top: 8px;
+  display: block;
+}
+
+.overviewSection {
+  flex: 2;
+  margin-left: 20px;
+}
+
+.label {
+  font-weight: bold;
+  color: #424242;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 80px;
+  background-color: #f9f9f9;
+  color: #555;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow to text area */
+}
+
+.infoSection {
+  margin-top: 30px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  color: #00838f;
+  margin-bottom: 15px;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.formGroup {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.formGroup:last-child {
+  margin-right: 0;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #555;
+  font-size: 14px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow to input fields */
+}
+
+.disabledField {
+  pointer-events: none;
+  color: #555;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.approveButton, .rejectButton {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Added box shadow to buttons */
+}
+
+.approveButton {
+  background-color: #02A1F9;
+  color: white;
+}
+
+.approveButton:hover {
+  background-color: #388e3c;
+}
+
+.rejectButton {
+  background-color: #02A1F9;
+  color: white;
+}
+
+.rejectButton:hover {
+  background-color: #d32f2f;
+}

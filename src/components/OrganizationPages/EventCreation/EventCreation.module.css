@@ -1,0 +1,132 @@
+
+.container{
+  width:100%;
+  height:100%;
+  background-color: rgba(149, 210, 249, 0.345);
+
+}
+
+.eventCreationContainer {
+
+  display: flex;
+  justify-content: center;
+  padding: 50px 26px;
+  flex-direction: column;
+  max-width: 1400px; /* Wider on large screens */
+  width: 100%; /* Allows full width on smaller screens */
+  margin: auto;
+}
+
+.formWrapper {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 1200px; /* Expands on larger screens */
+  padding: 30px 20px;
+  margin: auto;
+}
+
+.formHeader {
+  display: flex;
+  align-items: left;
+  margin-bottom: 20px;
+}
+
+.formTitle {
+  font: 600 28px Poppins, sans-serif;
+  text-align: left;
+  width: 100%;
+}
+
+.sectionTitle {
+  font: 500 24px Poppins, sans-serif;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.eventForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.submitButton {
+  border-radius: 30px;
+  background-color: #02a1f9;
+  box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.06);
+  color: #fff;
+  font: 600 18px Poppins, sans-serif;
+  padding: 10px 40px;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0288d1;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 991px) {
+  .eventCreationContainer {
+    padding: 30px 10px;
+    max-width: 100%;
+  }
+
+  .formWrapper {
+    padding: 20px 15px;
+    max-width: 700px; /* Narrower width for medium screens */
+  }
+
+  .formTitle {
+    font-size: 24px;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .submitButton {
+    padding: 8px 20px;
+    font-size: 16px;
+  }
+}
+
+/* Additional adjustments for extra-small screens */
+@media (max-width: 576px) {
+  .eventCreationContainer {
+    padding: 20px 10px;
+  }
+
+  .formWrapper {
+    padding: 15px;
+    max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .formTitle {
+    font-size: 22px;
+  }
+
+  .sectionTitle {
+    font-size: 18px;
+  }
+
+  .submitButton {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}
+
+.alert {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  text-align: center;
+}
+

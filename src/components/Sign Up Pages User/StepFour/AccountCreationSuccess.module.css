@@ -1,0 +1,159 @@
+.accountCreationSuccess {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: Inter, sans-serif;
+    width:100%;
+    min-height: 100%;
+
+  }
+  
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100vw; /* Ensure content doesn't overflow horizontally */
+    padding: 20px; /* Responsive padding */
+    box-sizing: border-box; /* Include padding in total width */
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    z-index: 1;
+  }
+  
+  .cardContainer {
+    width: 100%;
+    max-width: 600px; /* Limit max width for smaller screens */
+    margin: 0 auto;
+    padding: 50px 80px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  
+  .cardHeader {
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  .stepIndicator {
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+  }
+  
+  .pageTitle {
+    color: #86a2a6;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 6px;
+  }
+  
+  .successIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 180px;
+    margin-top: 92px;
+    max-width: 100%;
+  }
+  
+  .messageContainer {
+    display: flex;
+    margin-top: 14px;
+    width: 774px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .successMessage {
+    color: #26203b;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+
+  }
+  
+  .welcomeMessage {
+    color: #9c9aa5;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4px;
+  }
+  
+  .startButton {
+    align-self: stretch;
+    border-radius: 30px;
+    background-color: #00c874;
+    min-height: 48px;
+    width: 210px;
+    max-width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    padding: 12px 20px;
+    font: 700 16px Poppins, sans-serif;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+
+  }
+  
+  @media (max-width: 500px) {
+    .accountCreationSuccess{
+        align-items: center;
+    }
+    .contentWrapper {
+      max-width: 100%;
+    
+      
+    }
+
+  
+    .cardContainer {
+      width: 100%;
+      padding: 30px 5px 10px;
+      max-width: 300px;
+      margin: 0 auto;
+      margin-top: 80px;
+
+    
+    }
+
+  
+    .successIcon {
+      margin-top: 40px;
+    }
+  
+    .successMessage,
+    .welcomeMessage {
+      max-width: 100%;
+      margin: 0 auto;
+      font-size: 90%;
+    }
+  
+    .startButton {
+      margin: 40px 0 10px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+  }
